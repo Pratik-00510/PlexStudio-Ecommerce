@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+body {
+  background-color: #fff;
+  overflow: auto;
+}
+.navbar {
+  background-color: #e8e8e7;
+  height: 80px;
+}
+.navbar a:hover {
+  color: burlywood;
+}
+
+.navbar ul {
+  overflow: auto;
+  margin-left: 55%;
+  margin-top: -80px;
+  width: 500px;
+  height: 89px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 29px 5px;
+  font-weight: 400px; 
+}
+.navbar li a {
+  text-decoration: none;
+  padding: 3px 3px;
+  color: #000;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo-{
+  width: 250px;
+}
+.menu {
+  font-size: 37px;
+  margin-top: -85px;
+  margin-left: 1165px;
+  cursor: pointer;
+  margin: block;
+  width: 35px;
+  border: 2px red;
+}
+.menu:hover{
+  color: burlywood;
+}
+.banner{
+  width: 100%;
+}
+.banner img {
+  box-shadow: 0 1px 28px rgba(150, 149, 149, 0.516),
+    0 10px 10px rgba(1, 21, 18, 0.223);
+  width: 100%;
+  height: 450px;
+  display: block;
+  margin-top: 10px;
+}
+.banner h2 {
+  margin-top: -320px;
+  margin-left: 70px;
+  font-family: "Playfair Display", serif;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: transparent;
+  background-color: #b8242400;
+  border: 1px solid #575759;
+  display: inline-flex;
+  transform: translate(50%, -170px);
+  cursor: pointer;
+  margin-left: -5px;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: burlywood;
+  color: white;
+  border: none;
+}
+.btn3 ion-icon {
+  margin-top: 2px;
+}
+/* ====================Text on Banner=================== */
+#nys {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  background-color: burlywood;
+  font-size: 40px;
+  transform: translate(5%, -50%);
+  text-align: center;
+  width: 40%;
+  margin-left: 20px;
+  margin-top: -300px;
+}
+
+#head {
+  margin-left: 46px;
+  margin-top: -50px;
+  width: 450px;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid red;
+}
+
+#off {
+  font-family: "Playfair Display", serif;
+  margin-right: 1%;
+  font-size: 60px;
+  width: 360px;
+  margin-top: -150px;
+  transform: translate(230%, 50%);
+}
+#buy {
+  color: #000;
+  transform: translate(140%, -120%);
+  width: 480px;
+  text-align: center;
+  margin-top: -90px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bann-plus{
+  width: 90%;
+  transition: all ease-in 1s;
+}
+.bann-plus:hover{
+  scale: 0.8;
+}
+
+/* ------------------------------------ */
+#head2 {
+  text-align: center;
+  margin-top: 280px;
+  font-family: "EB Garamond", serif;
+}
+hr {
+  width: 80px;
+  background-color: red;
+  height: 2px;
+}
+.First-row {
+  display: flex;
+  gap: 44px;
+}
+.products1 {
+  border-spacing: -10px;
+  margin-left: 25px;
+  width: 20%;
+  border-radius: 20px;
+  background-color: #e8e8e7;
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(27, 150, 172, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+}
+.info {
+  margin-top: -10px;
+}
+.products1 img {
+  border-radius: 20px;
+  width: 240px;
+  margin-left: 5px;
+  margin-top: 5px;
+  transition: all ease 1s;
+}
+.products1 img:hover {
+  scale: 1.1;
+}
+#h3 {
+  margin-top: 2px;
+  padding: -10px;
+  color: rgb(7, 93, 7);
+  font-size: large;
+  text-align: center;
+}
+#img1 {
+  margin-top: -15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+.star {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 12px;
+}
+#price1 {
+  margin-top: 7px;
+  font-family: "EB Garamond", serif;
+  font-size: 17px;
+  text-align: center;
+}
+#cutprice {
+  font-family: "EB Garamond", serif;
+  text-decoration: line-through black;
+  font-size: 12px;
+  transform: translate(150px, -33px);
+  width: 0px;
+}
+.wishlist1 {
+  transform: translate(210px, -228px);
+  font-size: 20px;
+  width: 20px;
+}
+
+.wishlist1:hover {
+  color: red;
+}
+
+.cart1,
+.c2,
+.c3,
+.c4 {
+  transform: translate(80%, -80%);
+  font-size: 30px;
+  width: 30px;
+}
+/* ---------------Brand Items---------------- */
+#head3 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: "EB Garamond", serif;
+}
+.brands-section {
+  height: 950px;
+  width: 100%;
+  position:relative;
+}
+.pic1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  cursor: pointer;
+  margin: 80px 100px;
+}
+
+.pic1 img {
+  box-shadow: 0 1px 28px rgba(150, 149, 149, 0.516),
+    0 10px 10px rgba(1, 21, 18, 0.223);
+  width: 240px;
+  height: 350px;
+  border-radius: 8px;
+}
+.brand-logos .logos {
+  overflow: hidden;
+  box-shadow: none;
+  margin-left: -195px;
+  margin-top: 240px;
+  width: 120px;
+  height: 45px;
+  box-shadow: 0 1px 28px rgba(9, 9, 9, 0), 0 10px 10px rgba(1, 21, 18, 0.223);
+}
+
+#Discounts {
+  margin-left: -183px;
+  margin-top: 8px;
+  color: black;
+  width: 100px;
+}
+
+.winter-section {
+  margin-left: 30px;
+  cursor: pointer;
+  margin-top: 50px;
+  height: 457px;
+}
+#winter_head {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+  margin-top: -60px;
+  background-color: #858587;
+  text-align: center;
+  width: 100%;
+}
+
+.upper-img {
+  width: 50%;
+  height: 250px;
+}
+
+.gallery img {
+  width: 24.8%;
+}
+.vertical-img {
+  margin-left: 616px;
+  margin-top: -461px;
+}
+.vertical-img img {
+  height: 457px;
+}
+.winter-text h2 {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  margin-left: 75.3%;
+  margin-top: -461px;
+  font-size: 20px;
+  height: 457px;
+  cursor: text;
+  width: 200px;
+  background-color: burlywood;
+}
+
+.head6 {
+  text-align: center;
+  color: white;
+  margin-top: 3px;
+  margin-left: 29px;
+  width: 73.4%;
+  background-color: black;
+}
+/* ----------------------------------------------- */
+.head5 h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "EB Garamond", serif;
+  background-color: pink;
+}
+#w_txt {
+  font-family: 'Shadows Into Light',cursive;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.up-down {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 73px;
+  gap: 10px;
+  align-items: center;
+  width: 89.6%;
+}
+.text_b {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "EB Garamond", serif;
+  border: 1px solid grey;
+  box-shadow: 0 1px 28px rgba(255, 255, 255, 0.463),
+    0 10px 10px rgba(1, 21, 18, 0.223);
+}
+.text_a {
+  text-align: center;
+  margin-top: -35px;
+  border: 1px solid grey;
+  box-shadow: 0 1px 100px rgba(255, 255, 255, 0.463),
+    0 10px 10px rgba(1, 21, 18, 0.223);
+  font-family: "EB Garamond", serif;
+}
+#influencer2 {
+  margin-top: -100px;
+}
+#influencer1 {
+  margin-top: 10px;
+}
+.up-img {
+  margin-top: 0px;
+  width: 210px;
+  height: 500px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.down-img {
+  margin-bottom: 120px;
+  width: 210px;
+  height: 500px;
+  cursor: pointer;
+}
+/* ----------------Footer------------------- */
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+  height: 300px;
+  align-items: center;
+  margin: 30px 0px 0px 16px;
+  background-color: burlywood;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.footer_align1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 87px;
+  font-size: 14px;
+  width: fit-content;
+}
+.footer_align1 a {
+  text-decoration: none;
+  color: #000;
+}
+.social_links ion-icon {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+#footer_id1 {
+  font-family: "EB Garamond", serif;
+  font-size: 15px;
+}
+.store {
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  cursor: pointer;
+}
